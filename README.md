@@ -1,10 +1,10 @@
 # Crystal
 Just another language
-<br>
+<br><br>
 Crystal je moj lični programski jezik.
-<br>
+<br><br>
 Crystal je funkcionalan programski jezik namenjen pisanju kratkih interaktivnih skripti.
-<br>
+<br><br>
 Crystal dolazi sa standardnom bibliotekom koja definiše naredne metode:
 <br>
 "SUM"<br>
