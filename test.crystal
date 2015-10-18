@@ -1,0 +1,104 @@
+#Ovo je demo za Crystal programski jezik
+main
+	#Crystal podrzava komentare
+	#Crystal takodje podrzava promenjljive
+	#
+	#Osnovne funkcije Crystal-a su: "SUM", "DIV", "MUL", "MINUS", "PRINT", "READ", "CLOSE", "RANDOM", "TO_NUMBER", "TO_TEXT", "FOR", "IF", "NEGATE", "EQ", "LT", "GT"
+	#evo primera njihovog koriscenja
+	
+	PRINT_1='Unesite svoje ime'
+	PRINT
+	
+	READ
+	
+	SUM_1='Uneli ste '
+	SUM_2=READ_RESULT
+	SUM
+	
+	dusan=SUM_RESULT
+	PRINT_1=dusan
+	PRINT
+	
+	dusan='Ovo je tekst'
+	PRINT_1=dusan
+	PRINT
+	
+	test_metoda_1=40
+	test_metoda
+	
+	SUM_1=10
+	SUM_2=20 
+	SUM
+	
+	PRINT_1=SUM_RESULT
+	PRINT
+	
+	SUM_1='So '
+	SUM_2='cool'
+	SUM
+	
+	PRINT_1=SUM_RESULT
+	PRINT
+	
+	IF_ONE_1='true'
+	IF_ONE_2='pozdrav'
+	
+	IF_ONE
+	IF_ONE_1='false'
+	IF_ONE
+	
+	PRINT_1='Primer ugnjezdene petlje:'
+	PRINT
+	
+	FOR_ONE_1=10
+	FOR_ONE_2='blok_za_for'
+	FOR_ONE
+	
+	PRINT_1='Kraj main-a'
+	PRINT
+#Ovde se zavrsava main metoda
+
+
+#Mozete definisati i sopstvene funkcije evo i par primera
+blok_za_for
+	FOR_TWO_1=2
+	FOR_TWO_2='blok_za_for_dva'
+	FOR_TWO
+
+blok_za_for_dva
+	TO_TEXT_1='FOR_ONE_COUNTER'
+	TO_TEXT
+	SUM_1=TO_TEXT_RESULT
+	SUM_2=' '
+	SUM
+	SUM_1=SUM_RESULT
+	TO_TEXT_1='FOR_TWO_COUNTER'
+	TO_TEXT
+	SUM_2=TO_TEXT_RESULT
+	SUM
+	PRINT_1=SUM_RESULT
+	PRINT
+	PRINT_1=''
+	PRINT
+
+pozdrav
+	PRINT_1='Metoda pozdrav je pozvana'
+	PRINT
+	IF_TWO_1='true'
+	IF_TWO_2='if_iz_pozdrava'
+	IF_TWO
+
+if_iz_pozdrava
+	PRINT_1='If u if-u'
+	PRINT
+	test_metoda_1='Marko'
+	test_metoda
+	PRINT_1='Test metoda je prosla'
+	PRINT
+
+test_metoda
+	SUM_1='Prvi argument je '
+	SUM_2=test_metoda_1
+	SUM
+	PRINT_1=SUM_RESULT
+	PRINT
