@@ -30,6 +30,7 @@ Crystal počinje vaš kod izvršavanjem main metode.
 <br>
 Hello World:
 <br>
+```
 main
 	PRINT_1='Unesite svoje ime'
 	PRINT
@@ -42,13 +43,14 @@ main
 	
 	PRINT_1=SUM_RESULT
 	PRINT
-
-
+```
+<br>
 <br>
 Postoje dve vrste promenjljivih brojevi i tekst, boolean vrednost tačno je ekvivalent teksta 'true'.
 Svaki tekst počinje i završava se sa '
 <br>
 Crystal podržava petlje i uslove:
+```
 	FOR_ONE_1=10
 	FOR_ONE_2='blok_za_for'
 	FOR_ONE
@@ -56,8 +58,10 @@ Crystal podržava petlje i uslove:
 blok_za_for
 	PRINT_1=FOR_ONE_COUNTER
 	PRINT
+```
 <br>
 Promenjljive se metodama prosleđuju kao globalne promenjljive, konvencija je da se parametri zovu isto kao i pozvana funkcija.
+```
 	test_metoda_1=40
 	test_metoda
 	
@@ -67,4 +71,4 @@ test_metoda
 	SUM
 	PRINT_1=SUM_RESULT
 	PRINT
-	
+```	
